@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+
+
+.header {
+  font-family: cursive;
+  border:  2.5px  dotted Dodgerblue;
+  
+}
+
+
+.dropbtn {
+  background-color: white;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 90px;
+  margin-top:-50px;
+  background:-webkit-linear-gradient(white,blue,lightgreen);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: cursive;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+</style>
+</head>
+<body>
+
+<h1 class="header">DM Menu</h1>
+
+<div class="dropdown">
+  <button class="dropbtn">
+  <p class="fa fa-bars" font-size:45px></p>
+  </button>
+  <div class="dropdown-content">
+    <a href="#">Home</a>
+    <a href="#">language</a>
+    <a href="#">about</a>
+    <a href="#">other</a>
+  </div>
+</div>
+
+</body>
+</html>
